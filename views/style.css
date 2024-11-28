@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: #fff;
+}
+
+.promo-banner {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #444;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.search-cart input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+
+.billing-details, .order-summary {
+    width: 45%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.order-summary {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.order-items .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.order-total p {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.payment-method label {
+    display: block;
+    margin: 10px 0;
+}
+
+.coupon {
+    display: flex;
+    margin: 20px 0;
+}
+
+.coupon input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.coupon button {
+    padding: 8px;
+    background-color: #ff4040;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.place-order {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4040;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 40px 10%;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subscribe input[type="email"] {
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.quick-links ul li a{
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.promo-banner {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.search-cart input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.contact-info {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.contact-form {
+    width: 800px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 50px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-sections div {
+    width: 25%;
+}
+
+.footer-sections h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-sections p,
+.footer-sections ul {
+    font-size: 14px;
+}
+
+.footer-sections ul {
+    list-style: none;
+}
+
+.footer-sections ul li {
+    margin-bottom: 8px;
+}
+
+.footer-sections ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    color: #888;
+}
